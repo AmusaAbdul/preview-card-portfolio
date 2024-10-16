@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Product preview card component</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    body {
+      background-color: aliceblue;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      width: 600px;
+      background-color: white;
+      gap: 20px;
+      border-radius: 5%;
+    }
+    .container div {
+      width: 300px;
+    }
+    img {
+      height: 100%;
+      width: 300px;
+    }
+    .flex {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(56, 95, 56);
+    }
+    button {
+      background-color: rgb(56, 95, 56);
+      width: 90%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+    }
+    button img {
+      height: 20px;
+      width: 30px;
+      margin: 10px;
+    }
+    .white {
+      color: white;
+    }
+    h3 {
+      font-weight: 100;
+      color: rgb(211, 208, 208);
+      font-family: "Montserrat", sans-serif;
+    }
+    .light {
+      font-weight: 100;
+      color: rgb(211, 208, 208);
+      margin: 10px;
+    }
+    .cancel {
+      
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="first">
+      <img src="./images/image-product-desktop.jpg" alt="perfume" />
+    </div>
+    <div class="second">
+      <h3>Perfume</h3>
+      <h1>Gabrielle Essence Eau De Parfum</h1>
+      <p class="light">A floral, solar and voluptuous interpretation composed by Olivier Polge, 
+        Perfumer-Creator for the House of CHANEL.</p>
+        <div class="flex">
+          <div><h2>$149.99</h2></div>
+          <div class="cancel">$169.99</div>
+        </div>
+        <button>
+          <img src="./images/icon-cart.svg" alt="cart" />
+          <p class="white">Add to Cart</p>
+        </button>
+    
+    </div>
+
+  
+  </div>
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
+</body>
+</html>
